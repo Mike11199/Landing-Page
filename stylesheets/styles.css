@@ -1,5 +1,5 @@
 * {
-	border: 2px solid red;
+	/* border: 2px solid red; */
 }
 
     body {
@@ -22,7 +22,8 @@
 }
     
 .top_section {
-    height: 350px;
+    height: 550px;
+    
    
 
 }
@@ -93,8 +94,8 @@ h2 {
 
 .header_logo {
     display: block;
-    width: 84px;
-    height: 84px;
+    width: 85px;
+    height: 85px;
     
     
 }
@@ -104,8 +105,20 @@ h2 {
 
     display: flex;
     margin-left: auto;
-    padding: 0px 100px 0px 0px;
+    padding: 0px 200px 0px 0px;
+    gap: 20px;
+    
 }
+
+a {
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    color: #f9faf8;
+    text-decoration: none;
+    
+}
+
 
 .nav_bar {
     
@@ -114,6 +127,12 @@ h2 {
     flex-direction: row;
     align-items: center;
     display: flex;
+    background-color: #1f2937;
+    width: 100%; /* Full width */
+
+    /* this freeze frames the header */
+    position: fixed; /* Set the navbar to fixed position */
+     top: 0; /* Position the navbar at the top of the page */
     
     
   
