@@ -3,7 +3,7 @@
 }
 
     body {
-        display: block;
+        
         margin: 0px;
       }
 
@@ -12,7 +12,7 @@
     display: flex;
     flex-direction: column;
     /* height:100vh; */
-    flex: 1 1 auto;
+    
 }
 
 .items-header-text {
@@ -22,8 +22,9 @@
 }
     
 .top_section {
-    flex: 1 1 auto;
     height: 350px;
+   
+
 }
 
 .info_cards_section {
@@ -88,7 +89,33 @@ h2 {
     font-size: 36px;
 }
 
+
+
+.header_logo {
+    display: block;
+    width: 84px;
+    height: 84px;
+    
+    
+}
+
+.header_link {
+    
+
+    display: flex;
+    margin-left: auto;
+    padding: 0px 100px 0px 0px;
+}
+
 .nav_bar {
+    
     height: 80px;
+    padding: 20px 0px 20px 100px;
+    flex-direction: row;
+    align-items: center;
+    display: flex;
+    
+    
+  
 
 }
