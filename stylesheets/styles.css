@@ -1,5 +1,5 @@
 * {
-	/* border: 2px solid red; */
+	border: 2px solid red;
 }
 
     body {
@@ -22,7 +22,14 @@
 }
     
 .top_section {
+    margin-top: 80px;
     height: 550px;
+    background-color: #1f2937;
+    position: static; /* Set the navbar to fixed position */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
     
    
 
@@ -76,7 +83,8 @@
 
 h2 {
     font-size:36px;
-    font-weight:bolder;
+    font-weight:900;
+    font-family: Arial, Helvetica, sans-serif;
     padding: 0px;
     margin: 0px;
 
@@ -84,10 +92,14 @@ h2 {
 
 .quote_author {
     font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .quote{
     font-size: 36px;
+    color:#1f2937;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
 }
 
 
@@ -129,7 +141,7 @@ a {
     display: flex;
     background-color: #1f2937;
     width: 100%; /* Full width */
-
+    
     /* this freeze frames the header */
     position: fixed; /* Set the navbar to fixed position */
      top: 0; /* Position the navbar at the top of the page */
@@ -138,3 +150,31 @@ a {
   
 
 }
+
+.Website_Description
+{
+    margin-top: 102px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.Website_Description_SubText_1
+{
+    height: 250px;
+    width: 400px;
+    
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+
+
+.top_area_image {
+    margin-right: 30px;
+    padding: 0px 200px 0px 200px;
+    
+    
+}
+
