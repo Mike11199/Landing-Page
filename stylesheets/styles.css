@@ -11,23 +11,27 @@
 .flex-container {
     display: flex;
     flex-direction: column;
-    height:100vh;
+    /* height:100vh; */
     flex: 1 1 auto;
 }
 
 .items-header-text {
     flex: 1 1 auto;
+    height: auto;
 
 }
     
 .top_section {
     flex: 1 1 auto;
+    height: 350px;
 }
 
 .info_cards_section {
     display: flex;
     flex: 1 1 auto;
     flex-direction: column;
+    
+    
 }
 
 .info_cards {
@@ -36,6 +40,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    height: 350px;
     gap: 50px;
     padding: 16px;
 
@@ -45,10 +50,10 @@
 .item {
     
     align-items: center;
-    width: 100px;
-    height:100px;
-    border: 4px solid darkslategray;
-    background: skyblue;
+    width: 190px;
+    height:190px;
+    border: 4px solid rgb(33, 103, 150);
+    border-radius: 25px;
     gap: 80px;
     
 }
@@ -56,8 +61,34 @@
 .testimonials_section {
     flex: 1 1 auto;
     background-color: lightgrey;
+    height: auto;
+    font-style:italic
+    
 }
 
 .footer_section{
     flex: 1 1 auto;
+    height: 140px;
+}
+
+
+h2 {
+    font-size:36px;
+    font-weight:bolder;
+    padding: 0px;
+    margin: 0px;
+
+}
+
+.quote_author {
+    font-size: 12px;
+}
+
+.quote{
+    font-size: 36px;
+}
+
+.nav_bar {
+    height: 80px;
+
 }
