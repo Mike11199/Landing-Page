@@ -4,9 +4,9 @@ Work-in-Progress
 
 This is practice for using HTML and CSS formatting to design a website's landing page.  
 
-This project demonstrates understanding of flex containers, div/span elements, page layout, and CSS attributes such as button mouseover/click formatting.
+This project demonstrates understanding of flex containers, div/span elements, page layouts, and CSS attributes.
 
-If button CSS (mouseover, click effects) do not work, click F12 -> Dev Tools -> Network -> Disable Cache, then delete your browser's cache manually.
+If button CSS (mouseover, click effects) do not work, click F12 -> Dev Tools -> Network -> Disable Cache, then delete your browser's cache manually.  Then reopen the live preview page off of GitHub.
 
 
 
