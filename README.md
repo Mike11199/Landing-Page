@@ -1,10 +1,14 @@
 # Landing-Page
 
-Work-in-Progress
+** No mobile support yet; please view in desktop browser **
 
 This is practice for using HTML and CSS formatting to design a website's landing page.  
 
-This project demonstrates understanding of flex containers, div/span elements, page layout, and CSS attributes.  
+This project demonstrates understanding of flex containers, div/span elements, page layouts, and CSS attributes.
+
+If button CSS (mouseover, click effects) do not work, go to Dev Tools (F12 in Chrome) -> Network -> Disable Cache, then delete your browser's cache manually.  Then reopen the live preview page off of GitHub Pages.
+
+
 
 [<img alt="alt_text" width="200px" src="https://user-images.githubusercontent.com/91037796/151688958-059ec882-a5ee-41cc-8985-c9ed26969de3.png" />](https://mike11199.github.io/Landing-Page/)
 
