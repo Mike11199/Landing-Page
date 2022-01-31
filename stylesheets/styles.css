@@ -203,7 +203,7 @@ h4 {
 
 }
 
-button {
+.trip_availability {
     background-color: darkgreen; /* Green */
     border: none;
     color: white;
@@ -215,6 +215,16 @@ button {
     border-radius: 10px;
     align-items: right;
   }
+
+
+  /* Source:   https://www.w3schools.com/howto/howto_css_animate_buttons.asp*/
+.trip_availability:hover {background-color: #3e8e41}
+
+.trip_availability:active {
+background-color: #3e8e41;
+
+
+}
 
 
 
@@ -231,3 +241,5 @@ button {
     background-color: #000;
 
 }
+
+
