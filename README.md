@@ -6,7 +6,7 @@ This is practice for using HTML and CSS formatting to design a website's landing
 
 This project demonstrates understanding of flex containers, div/span elements, page layouts, and CSS attributes.
 
-If button CSS (mouseover, click effects) do not work, click F12 -> Dev Tools -> Network -> Disable Cache, then delete your browser's cache manually.  Then reopen the live preview page off of GitHub.
+If button CSS (mouseover, click effects) do not work, go to Dev Tools (F12 in Chrome) -> Network -> Disable Cache, then delete your browser's cache manually.  Then reopen the live preview page off of GitHub Pages.
 
 
 
