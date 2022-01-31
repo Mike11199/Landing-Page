@@ -139,9 +139,13 @@ a {
     flex-direction: row;
     align-items: center;
     display: flex;
-    background-color: #1f2937;
+    background-color: #060607;
     width: 100%; /* Full width */
+    border-bottom: 1px darkgrey;
     
+    border-style: solid;
+
+
     /* this freeze frames the header */
     position: fixed; /* Set the navbar to fixed position */
      top: 0; /* Position the navbar at the top of the page */
@@ -210,3 +214,17 @@ button {
     border-radius: 10px;
     align-items: right;
   }
+
+
+
+  .item_image{
+
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 200px;
+    border: 5px rgb(33, 103, 150);
+    border-style: solid;
+    border-radius: 25px;
+    gap: 80px;
+}
