@@ -39,6 +39,7 @@
     display: flex;
     flex: 1 1 auto;
     flex-direction: column;
+
     
     
 }
@@ -221,10 +222,12 @@ button {
 
     align-items: center;
     justify-content: center;
-    width: 200px;
-    height: 200px;
-    border: 5px rgb(33, 103, 150);
-    border-style: solid;
-    border-radius: 25px;
+    width: 240px;
+    height: 240px;
+    border: 3px black;
+    border-style:solid;
+    border-radius: 23px;
     gap: 80px;
+    background-color: #000;
+
 }
