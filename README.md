@@ -1,6 +1,6 @@
 # Landing-Page
 
-Work-in-Progress
+** No mobile support yet; please view in desktop browser **
 
 This is practice for using HTML and CSS formatting to design a website's landing page.  
 
