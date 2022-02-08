@@ -313,10 +313,10 @@ background-color: #3e8e41;
     .info_cards {
         display: flex;
         flex: 1 1 auto;
-        flex-direction: row;
+        flex-direction: column;
         align-items: center;
         justify-content: center;
-        height: 380px;
+        
         gap: 50px;
         padding: 16px;
     
@@ -370,7 +370,7 @@ background-color: #3e8e41;
         font-style: normal;
         align-items: center;
         margin: 0;
-        padding: 0px 550px 0px 0px;
+        
         
     }
     
@@ -448,18 +448,14 @@ background-color: #3e8e41;
     
     .Website_Description_SubText_1
     {
-        height: 350px;
-        width: 400px;
-        
-        margin-left: 20px;
-        margin-right: 200px;
+        margin-top: 30px;
     }
     
     
     
     .top_area_image {
-        margin-right: 30px;
-        padding: 0px 200px 0px 200px;
+        margin-right: 10px;
+        width: 270px;
         
         
     }
