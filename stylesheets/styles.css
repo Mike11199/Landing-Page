@@ -258,6 +258,14 @@ background-color: #3e8e41;
 
 }
 
+.footer{
+    text-align: right; 
+    padding-right: 50px;
+     font-style: normal; 
+     font-family: Arial, Helvetica, sans-serif;
+
+}
+
 }
 
 
@@ -265,13 +273,13 @@ background-color: #3e8e41;
 @media only screen and (max-width: 600px) {
 
     * {
-        border: 2px solid red;
+        /* border: 2px solid red; */
     }
     
-        body {
-            
-            margin: 0px;
-          }
+    body {
+        
+        margin: 0px;
+        }
     
     
     .flex-container {
@@ -518,5 +526,17 @@ background-color: #3e8e41;
         background-color: #000;
     
     }
+
+
+    .footer{
+
+         font-style: normal; 
+         font-family: Arial, Helvetica, sans-serif;
     
     }
+
+
+
+    
+    }
+
