@@ -1,3 +1,5 @@
+@media only screen and (min-width: 601px) {
+
 * {
 	/* border: 2px solid red; */
 }
@@ -23,7 +25,7 @@
     
 .top_section {
     margin-top: 80px;
-    height: 550px;
+    height: 650px;
     background-color: #1f2937;
     position: static; /* Set the navbar to fixed position */
     display: flex;
@@ -256,4 +258,269 @@ background-color: #3e8e41;
 
 }
 
+}
 
+
+/* for mobile */
+@media only screen and (max-width: 600px) {
+
+    * {
+        border: 2px solid red;
+    }
+    
+        body {
+            
+            margin: 0px;
+          }
+    
+    
+    .flex-container {
+        display: flex;
+        flex-direction: column;
+        /* height:100vh; */
+        
+    }
+    
+    .items-header-text {
+        flex: 1 1 auto;
+        height: auto;
+    
+    }
+        
+    .top_section {
+        margin-top: 80px;
+        height: 550px;
+        background-color: #1f2937;
+        position: static; /* Set the navbar to fixed position */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        
+       
+    
+    }
+    
+    .info_cards_section {
+        display: flex;
+        flex: 1 1 auto;
+        flex-direction: column;
+    
+        
+        
+    }
+    
+    .info_cards {
+        display: flex;
+        flex: 1 1 auto;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        height: 380px;
+        gap: 50px;
+        padding: 16px;
+    
+    
+    }
+    
+    .item {
+        
+        align-items: center;
+        width: 190px;
+        height:190px;
+        border: 4px solid rgb(33, 103, 150);
+        border-radius: 25px;
+        gap: 80px;
+        
+    }
+    
+    .testimonials_section {
+        flex: 1 1 auto;
+        background-color: lightgrey;
+        height: auto;
+        font-style:italic;
+        display: flex;
+        flex-direction: column;
+        text-align:right;
+        height:400px;
+        justify-content: center;
+    
+        
+    }
+    
+    .footer_section{
+        flex: 1 1 auto;
+        height: 140px;
+    }
+    
+    
+    h2 {
+        font-size:36px;
+        font-weight:900;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 30px;
+        margin: 0px;
+        margin-top: 40px;
+    }
+    
+    .quote_author {
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight:900;
+        font-style: normal;
+        align-items: center;
+        margin: 0;
+        padding: 0px 550px 0px 0px;
+        
+    }
+    
+    .quote{
+        font-size: 36px;
+        color:#1f2937;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 100;
+        margin: 0;
+        
+    }
+    
+    
+    
+    .header_logo {
+        display: block;
+        width: 85px;
+        height: 85px;
+        
+        
+    }
+    
+    .header_link {
+        
+    
+        display: flex;
+        font-size: 10px;
+        flex-direction: column;
+        padding-left: 80px;
+                
+        
+    }
+    
+    a {
+        font-size: 14px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bolder;
+        color: #f9faf8;
+        text-decoration: none;
+        
+    }
+    
+    
+    .nav_bar {
+        
+        height: 80px;
+        padding: 20px 0px 20px 10px;
+        flex-direction: row;
+        align-items: center;
+        display: flex;
+        background-color: #060607;
+        width: 100%; /* Full width */
+        border-bottom: 1px darkgrey;
+        
+        border-style: solid;
+    
+    
+        /* this freeze frames the header */
+        position: fixed; /* Set the navbar to fixed position */
+         top: 0; /* Position the navbar at the top of the page */
+        
+        
+      
+    
+    }
+    
+    .Website_Description
+    {
+        margin-top: 102px;
+        height: 250px;
+        display: flex;
+        flex-direction: column;
+        
+    }
+    
+    .Website_Description_SubText_1
+    {
+        height: 350px;
+        width: 400px;
+        
+        margin-left: 20px;
+        margin-right: 200px;
+    }
+    
+    
+    
+    .top_area_image {
+        margin-right: 30px;
+        padding: 0px 200px 0px 200px;
+        
+        
+    }
+    
+    h3 {
+        font-size:36px;
+        font-weight:900;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 0px;
+        margin: 0px;
+    
+    }
+    
+    h4 {
+        font-size:18px;
+        font-weight:100;
+        color: #e5e7eb;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 0px;
+        margin: 0px;
+    
+    }
+    
+    .trip_availability {
+        background-color: darkgreen; /* Green */
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        
+        font-size: 16px;
+        border-radius: 10px;
+        
+      }
+    
+    
+      /* Source:   https://www.w3schools.com/howto/howto_css_animate_buttons.asp*/
+    .trip_availability:hover {
+        background-color: #3e8e41
+    }
+    
+    .trip_availability:active {
+    background-color: #3e8e41;
+    }
+    
+    
+    
+    .item_image{
+    
+        align-items: center;
+        justify-content: center;
+        width: 240px;
+        height: 240px;
+        border: 3px black;
+        border-style:solid;
+        border-radius: 23px;
+        gap: 80px;
+        background-color: #000;
+    
+    }
+    
+    }
