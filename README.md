@@ -9,7 +9,7 @@ This is practice for using HTML and CSS formatting to design a website's landing
 
 -Div and flex container, flexbox placement, and page layout.   </br>
 -Static Header navbar with links containing CSS hover transition effects to change color. </br>
--CSS Added for mobile phone viewing support of the website.
+-CSS Added for mobile phone viewing support of the website. </br>
 -CSS for adding animations (added h2 float in from margin).
 
 
