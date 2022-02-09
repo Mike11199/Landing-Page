@@ -11,6 +11,30 @@
       }
 
 
+.main-page-form {
+
+        display: flex;
+        flex-direction: row;
+        height: 1200px;
+        
+}
+
+.side_image_section
+{
+    height: 100%;
+    width: 50%;
+    align-items: center;
+
+}
+
+.side_image
+{
+    
+    height: 1000px;
+    max-width: 100%;
+    object-fit: cover;
+}
+
 .flex-container {
     display: flex;
     flex-direction: column;
@@ -43,11 +67,11 @@
 .company_name {
     display: flex;
     font-size: 40px;
-    font-family: Arial, Helvetica, sans-serif;
+    
     color: white;
     font-weight: 300;
     margin-left: auto;
-    font-style: italic;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     
 }
 
@@ -202,9 +226,9 @@ a {
     display: flex;
     background-color: #060607;
     width: 100%; /* Full width */
-    border-bottom: 1px darkgrey;
+    /* border-bottom: 1px darkgrey;
     
-    border-style: solid;
+    border-style: solid; */
 
     position: fixed; 
     top: 0; 
@@ -302,8 +326,10 @@ background-color: #3e8e41;
 .footer{
     text-align: right; 
     padding-right: 50px;
-     font-style: normal; 
-     font-family: Arial, Helvetica, sans-serif;
+    font-style: normal; 
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: black;
 
 }
 
@@ -359,11 +385,11 @@ background-color: #3e8e41;
 .company_name {
     display: flex;
     font-size: 40px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: white;
     font-weight: 300;
     margin-left: auto;
-    font-style: italic;
+    
     
 }
     
@@ -515,9 +541,9 @@ background-color: #3e8e41;
         display: flex;
         background-color: #060607;
         width: 100%; /* Full width */
-        border-bottom: 1px darkgrey;
+        /* border-bottom: 1px darkgrey;
         
-        border-style: solid;
+        border-style: solid; */
         position: fixed; /* Set the navbar to fixed position */
         top: 0; 
         
@@ -623,10 +649,11 @@ background-color: #3e8e41;
          font-style: normal; 
          font-family: Arial, Helvetica, sans-serif;
          align-self: stretch;
-    
+         color: white;
+         background-color: black;
+     
     }
-
-
+   
 
     
     }
