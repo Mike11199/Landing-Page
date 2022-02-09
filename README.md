@@ -10,6 +10,7 @@ This is practice for using HTML and CSS formatting to design a website's landing
 -Div and flex container, flexbox placement, and page layout.   </br>
 -Static Header navbar with links containing CSS hover transition effects to change color. </br>
 -CSS Added for mobile phone viewing support of the website.
+-CSS for adding animations (added h2 float in from margin).
 
 
 If button CSS (mouseover, click effects) do not work, go to Dev Tools (F12 in Chrome) -> Network -> Disable Cache, then delete your browser's cache manually.  Then reopen the live preview page off of GitHub Pages.
