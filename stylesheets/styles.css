@@ -146,14 +146,14 @@ a {
     color: #f9faf8;
     text-decoration: none;
     
-    transition: color 200ms ease-in 50ms;
+        transition: color 200ms ease-in 50ms;
         
-}
+    }
 
-a:hover {
-    color: rgb(0, 119, 255);
-    transition: color 200ms ease-out 50ms;
-}
+    a:hover {
+        color: rgb(0, 119, 255);
+        transition: color 200ms ease-out 50ms;
+    }
 
 
 
@@ -443,7 +443,7 @@ background-color: #3e8e41;
     
     .nav_bar {
         
-        height: 80px;
+        height: 120px;
         padding: 20px 0px 20px 10px;
         flex-direction: row;
         align-items: center;
@@ -475,7 +475,9 @@ background-color: #3e8e41;
     
     .Website_Description_SubText_1
     {
-        margin-top: 30px;
+        margin-top: 70px;
+        display: flex;
+        flex-direction: column;
     }
     
     
