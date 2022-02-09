@@ -297,13 +297,13 @@ background-color: #3e8e41;
         
     .top_section {
         margin-top: 80px;
-        height: 550px;
+        height: 800px;
         background-color: #1f2937;
         position: static; /* Set the navbar to fixed position */
         display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: space-between;
+        
         
        
     
@@ -462,11 +462,10 @@ background-color: #3e8e41;
     
     
     .top_area_image {
-        margin-right: 10px;
-        width: 270px;
-        
-        
+        margin-top: 40px;
+        width: 320px;
     }
+    
     
     h3 {
         font-size:36px;
@@ -475,6 +474,9 @@ background-color: #3e8e41;
         font-family: Arial, Helvetica, sans-serif;
         padding: 0px;
         margin: 0px;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 30px;
     
     }
     
@@ -485,6 +487,8 @@ background-color: #3e8e41;
         font-family: Arial, Helvetica, sans-serif;
         padding: 0px;
         margin: 0px;
+        margin-left: 10px;
+        margin-right: 10px;
     
     }
     
