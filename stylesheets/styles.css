@@ -146,17 +146,13 @@ a {
     color: #f9faf8;
     text-decoration: none;
     
-    -webkit-transition: color 0.2s ease-out;
-    -moz-transition: color 0.2s ease-out;
-    -o-transition: color 0.2s ease-out;
-    -ms-transition: color 0.2s ease-out;
-    transition: color 0.2s ease-out;
-
-    }
+    transition: color 200ms ease-in 50ms;
+        
+}
 
 a:hover {
-color: rgb(0, 119, 255);
-
+    color: rgb(0, 119, 255);
+    transition: color 200ms ease-out 50ms;
 }
 
 
@@ -435,17 +431,13 @@ background-color: #3e8e41;
         color: #f9faf8;
         text-decoration: none;
 
-        -webkit-transition: color 0.2s ease-out;
-        -moz-transition: color 0.2s ease-out;
-        -o-transition: color 0.2s ease-out;
-        -ms-transition: color 0.2s ease-out;
-        transition: color 0.2s ease-out;
+        transition: color 200ms ease-in 50ms;
         
     }
 
     a:hover {
         color: rgb(0, 119, 255);
-
+        transition: color 200ms ease-out 50ms;
     }
     
     
