@@ -384,25 +384,26 @@ background-color: #3e8e41;
     }
     
     .quote_author {
-        font-size: 20px;
+        font-size: 16px;
         font-family: Arial, Helvetica, sans-serif;
         font-weight:900;
         font-style: normal;
         align-items: center;
         margin: 0;
-        
+        margin-right: 20px;
         
     }
     
     .quote{
-        font-size: 36px;
+        font-size: 24px;
         color:#1f2937;
         font-family: Arial, Helvetica, sans-serif;
         font-weight: 100;
-        margin: 0;
-        
+        margin-right: 14px;
+        margin-left: 15px;
     }
-    
+        
+   
     
     
     .header_logo {
@@ -557,6 +558,7 @@ background-color: #3e8e41;
 
          font-style: normal; 
          font-family: Arial, Helvetica, sans-serif;
+         align-self: stretch;
     
     }
 
