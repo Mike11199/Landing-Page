@@ -146,7 +146,23 @@ a {
     color: #f9faf8;
     text-decoration: none;
     
+    -webkit-transition: color 0.2s ease-out;
+    -moz-transition: color 0.2s ease-out;
+    -o-transition: color 0.2s ease-out;
+    -ms-transition: color 0.2s ease-out;
+    transition: color 0.2s ease-out;
+
+    }
+
+a:hover {
+color: rgb(0, 119, 255);
+
 }
+
+
+
+
+
 
 
 .nav_bar {
@@ -395,8 +411,8 @@ background-color: #3e8e41;
     
     .header_logo {
         display: block;
-        width: 85px;
-        height: 85px;
+        width: 50px;
+        height: 50px;
         
         
     }
@@ -418,7 +434,18 @@ background-color: #3e8e41;
         font-weight: bolder;
         color: #f9faf8;
         text-decoration: none;
+
+        -webkit-transition: color 0.2s ease-out;
+        -moz-transition: color 0.2s ease-out;
+        -o-transition: color 0.2s ease-out;
+        -ms-transition: color 0.2s ease-out;
+        transition: color 0.2s ease-out;
         
+    }
+
+    a:hover {
+        color: rgb(0, 119, 255);
+
     }
     
     
@@ -466,7 +493,7 @@ background-color: #3e8e41;
         width: 320px;
     }
     
-    
+
     h3 {
         font-size:36px;
         font-weight:900;
