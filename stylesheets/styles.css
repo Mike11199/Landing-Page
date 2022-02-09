@@ -193,11 +193,9 @@ a {
     
     border-style: solid;
 
+    position: fixed; 
+    top: 0; 
 
-    /* this freeze frames the header */
-    position: fixed; /* Set the navbar to fixed position */
-     top: 0; /* Position the navbar at the top of the page */
-    
     
   
 
@@ -495,11 +493,8 @@ background-color: #3e8e41;
         border-bottom: 1px darkgrey;
         
         border-style: solid;
-    
-    
-        /* this freeze frames the header */
         position: fixed; /* Set the navbar to fixed position */
-         top: 0; /* Position the navbar at the top of the page */
+        top: 0; 
         
         
       
