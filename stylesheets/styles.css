@@ -279,6 +279,18 @@ background-color: #3e8e41;
 
 }
 
+
+/* background gradient test */
+body {
+    background: linear-gradient(-45deg, #2fa7bd, #99aaad);
+    background-size: 400% 400%;
+    height: 100vh;
+  }
+  
+ 
+
+
+
 }
 
 
@@ -566,6 +578,12 @@ background-color: #3e8e41;
     
     }
 
+    /* background gradient test */
+    body {
+        background: linear-gradient(-45deg, #2fa7bd, #99aaad);
+        background-size: 400% 400%;
+        height: 100vh;
+    }
 
     
     }
