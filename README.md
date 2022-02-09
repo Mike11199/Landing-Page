@@ -20,7 +20,10 @@ If button CSS (mouseover, click effects) do not work, go to Dev Tools (F12 in Ch
 
 ![website1](https://user-images.githubusercontent.com/91037796/151743117-4b089c15-31e9-4139-9971-2f4dd62598a3.png )
 
-<h2>Mobile View:</h2>
+<br /><br />
+<h2>Mobile View:</h2> 
+<br />
+
 
 ![mobileview](https://user-images.githubusercontent.com/91037796/153101802-4a797d9f-7cb8-4936-a0bf-2a6ec81191ab.png)
 
