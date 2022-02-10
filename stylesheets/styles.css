@@ -324,13 +324,12 @@ background-color: #3e8e41;
 }
 
 .footer{
-    text-align: right; 
-    padding-right: 50px;
+    text-align: center; 
     font-style: normal; 
     font-family: Arial, Helvetica, sans-serif;
     color: white;
     background-color: black;
-
+    display: flex;
 }
 
 
@@ -648,12 +647,13 @@ background-color: #3e8e41;
 
     .footer{
 
-         font-style: normal; 
-         font-family: Arial, Helvetica, sans-serif;
-         display: flex;
-         color: white;
-         background-color: black;
-     
+        font-style: normal; 
+        font-family: Arial, Helvetica, sans-serif;
+        display: flex;
+        color: white;
+        background-color: black;
+        flex-direction: row;
+        text-align: center; 
     }
    
 
