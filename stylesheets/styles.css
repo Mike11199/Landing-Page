@@ -657,6 +657,26 @@ background-color: #3e8e41;
 }
    
 
+
+
+.side_image_section
+{
+    height: 250px;
+    margin-top: 220px;
+    align-items: center;
+
+}
+
+.side_image
+{
+    display: flex;
+    height: 250px;
+    max-width: 100%;
+    object-fit: cover;
+}
+
+
+
     
     }
 
