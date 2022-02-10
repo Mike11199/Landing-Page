@@ -5,16 +5,21 @@
 	/* border: 2px solid red; */
 }
 
-    body {
-        
-        margin: 0px;
-      }
+body {
+    
+    margin: 0px;
+    }
 
-.input{
-    width: 500px;
+input{
+    width: 80%;
     display: flex;
     flex-direction: column;
     flex-flow:wrap;
+    
+}
+
+label {
+    width: 40%;
 }
 
 .banner {
@@ -25,15 +30,32 @@
     position: relative;
     top: 20vh;
     gap: 1vw;
-   
+    display: flex;
     padding: 15px 0;
     justify-content: center;
     align-items: center;
 }
 
+.banner_text {
+    color: white;
+    display: flex;
+    font-size: 24px;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.banner_tex_p {
+    align-self: flex-end;
+}
+
+
 .form-grid{
     padding-top: 20px;
-
+    display: flex;
+    flex-direction: column;
+    margin-left: 20%;
+    
 }
 
 .form_section
@@ -42,7 +64,7 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    padding-top: 20px;
+    
     padding-bottom: 20px;
     gap: 30px;
 
@@ -50,7 +72,7 @@
       
 .right_section {
         display: flex;
-
+        padding-top: 140px;
         flex-direction: column;
         flex-wrap: wrap;
 
@@ -62,12 +84,18 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    width: 400px;
+    width: 500px;
+    gap: 30px;
+    font-family: Arial, Helvetica, sans-serif;
     
-    justify-content:end
 }
 
-
+.register {
+    display: flex;
+    font-size: 30px;
+    font-weight: 500;
+    font-family:Arial, Helvetica, sans-serif
+}
 
 .side_image_section{
 
@@ -419,8 +447,10 @@ background-color: #3e8e41;
 }
 
 .sign-up-form {
-    padding-top: 220px;
+    
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     padding-left: 120px;
 }
 
