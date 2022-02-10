@@ -21,7 +21,8 @@
 
 .side_image_section
 {
-    height: 100%;
+    
+    height: 2000px;
     width: 50%;
     align-items: center;
 
@@ -29,10 +30,11 @@
 
 .side_image
 {
-    
+    padding-top: 120px;
     height: 1000px;
     max-width: 100%;
     object-fit: cover;
+    margin-left: auto;
 }
 
 .flex-container {
@@ -191,7 +193,7 @@ h2 {
     display: flex;
     margin-left: auto;
     padding: 0px 200px 0px 0px;
-    gap: 20px;
+    gap: 30px;
     
 }
 
@@ -338,7 +340,21 @@ background-color: #3e8e41;
     background-color: black;
     display: flex;
     flex-direction: column;
+
 }
+
+.sign-up-form {
+    padding-top: 220px;
+    display: flex;
+    padding-left: 120px;
+}
+
+
+
+
+
+
+
 
 
 
@@ -662,7 +678,7 @@ background-color: #3e8e41;
 .side_image_section
 {
     height: 250px;
-    margin-top: 220px;
+    margin-top: 220 px;
     align-items: center;
 
 }
