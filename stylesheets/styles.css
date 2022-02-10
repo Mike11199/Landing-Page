@@ -685,8 +685,8 @@ background-color: #3e8e41;
 
 .side_image_section
 {
-    height: 250px;
-    margin-top: 220 px;
+    height: 230px;
+    margin-top: 430 px;
     align-items: center;
 
 }
@@ -694,12 +694,18 @@ background-color: #3e8e41;
 .side_image
 {
     display: flex;
-    height: 250px;
+    height: 640px;
     max-width: 100%;
-    object-fit: cover;
+    object-fit: scale-down;
+    
 }
 
 
+.form_section
+
+{
+    margin-top: 250px;
+}
 
     
     }
