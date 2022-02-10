@@ -39,31 +39,52 @@
 
         <div class="main-page-form_2">
 
-            <div class = side_image_section>
-                <img src="../images/Annapurna.jpg" class="side_image">
+            <div class = "side_image_section" background="">
+
+                <div class="banner">
+                    
+                </div>
+                <img src="" class="side_image">
             </div>
     
     
-            <div class = form_section>
+            <div class = "right_section">
+
+            <div class = "form-grid">
 
                 <form action="http://httpbin.org/post" method="post" class="sign-up-form">
-                    <div>
-                      <label for="first_name">First Name:</label>
-                      <input type="text" name="first_name" id="first_name">
+                    <div class="input">
+                      <label for="first_name">First Name</label>
+                      <input type="text" name="first_name" id="first_name" required> 
                     </div>
                   
-                    <div>
-                      <label for="last_name">Last Name:</label>
-                      <input type="text" name="last_name" id="last_name">
+                    <div class="input">
+                      <label for="last_name">Last Name</label>
+                      <input type="text" name="last_name" id="last_name" required>
                     </div>
                   
-                    <div>
-                      <label for="age">Age:</label>
-                      <input type="number" name="age" id="age">
+                    <div class="input">
+                      <label for="email">Email</label>
+                      <input type="email" name="email" id="email" required>
                     </div>
-                  
-                    <button type="submit">Submit</button>
+
+    
+                      <div class="input">
+                        <label for="phone-number">Phone number</label>
+                        <input type="text" name="phone-number" id="phone-number" required>
+                      </div>
+
+                      <div class="input">
+                        <label for="password">Password</label>
+                        <input type="password" name="password" id="password" required>
+                      </div>
+
+                      <!-- This has to be within the form tags to work -->
+                      <button type="submit">Submit</button>  
+                    
                   </form>
+                </div>
+                  
 
             </div>
 

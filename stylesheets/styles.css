@@ -10,6 +10,81 @@
         margin: 0px;
       }
 
+.input{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    flex-flow:wrap;
+}
+
+.banner {
+    
+    height: 100px;
+    opacity: 70%;
+    background-color: black;
+    position: relative;
+    top: 20vh;
+    gap: 1vw;
+   
+    padding: 15px 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-grid{
+    padding-top: 20px;
+
+}
+
+.form_section
+
+    {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    gap: 30px;
+
+    }
+      
+.right_section {
+        display: flex;
+
+        flex-direction: column;
+        flex-wrap: wrap;
+
+    
+        }
+          
+
+.sign-up-form {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 400px;
+    
+    justify-content:end
+}
+
+
+
+.side_image_section{
+
+    background-image: url("../images/Annapurna.jpg");
+    
+    padding-top: 270px;
+    
+    background-position-x: center;
+    background-attachment:fixed;
+    max-width: 100%;
+    
+    height: 840px;
+    width: 50%;
+ 
+    
+    
+}
 
 .main-page-form {
 
@@ -27,14 +102,6 @@
     
 }
 
-.side_image_section
-{
-    
-    height: 900px;
-    width: 50%;
-    align-items: center;
-
-}
 
 .side_image
 {
@@ -444,6 +511,15 @@ background-color: #3e8e41;
     
     }
     
+    .main-page-form_2 {
+
+        display: flex;
+        flex-direction: column;
+        height: 1110px;
+        
+    }
+
+
     .item {
         
         align-items: center;
@@ -681,22 +757,19 @@ background-color: #3e8e41;
 }
    
 
+.side_image_section{
 
-
-.side_image_section
-{
-    height: 230px;
-    margin-top: 430 px;
-    align-items: center;
-
-}
-
-.side_image
-{
+    background-image: url("../images/Annapurna.jpg");
+    
+    margin-top: 215px;
     display: flex;
-    height: 640px;
+    background-position: center;
     max-width: 100%;
-    object-fit: scale-down;
+    background-size: cover;
+    height: 330px;
+    
+ 
+    
     
 }
 
@@ -707,6 +780,32 @@ background-color: #3e8e41;
     margin-top: 250px;
 }
 
+.right_section {
+    display: flex;
+    margin-top: 50px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
     
+    }   
+
+
+.form-grid
+
+{
+    display: flex;
+    
+
+}
+    
+
+.input {
+ display: flex;
+ flex-wrap: column;  
+ 
+}
+
+
     }
 
