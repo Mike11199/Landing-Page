@@ -18,6 +18,12 @@ input{
     
 }
 
+input:focus {
+    outline: none;
+    border-color: rgb(65, 110, 196);
+    box-shadow: 0 0 10px #719ECE;
+}
+
 label {
     width: 40%;
 }
