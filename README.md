@@ -22,6 +22,8 @@ If button CSS (mouseover, click effects) do not work, go to Dev Tools (F12 in Ch
 [<img alt="alt_text" width="200px" src="https://user-images.githubusercontent.com/91037796/151688958-059ec882-a5ee-41cc-8985-c9ed26969de3.png" />](https://mike11199.github.io/Landing-Page/)
 
  <br /> <br />
+  <h2>Mobile View:</h2>
+  
  ![1](https://user-images.githubusercontent.com/91037796/153520529-038f3c32-ba30-4e4f-b858-24393b55751b.png)
  
  <br /> <br /> 
@@ -35,13 +37,11 @@ If button CSS (mouseover, click effects) do not work, go to Dev Tools (F12 in Ch
 <h2>Mobile View:</h2> 
 <br />
 
+![2](https://user-images.githubusercontent.com/91037796/153524331-7d34a98e-39c3-4184-8912-17ccf2aa1333.png)
 
-![mobileview](h![1](https://user-images.githubusercontent.com/91037796/153521278-a1e66363-e459-4e6f-8de1-c11f8474ae71.png)
+<br /><br />
 
-<br /> <br /> 
+![1](https://user-images.githubusercontent.com/91037796/153524456-50e02476-d08b-42bd-8bfc-803443706cb4.png)
 
-![1](https://user-images.githubusercontent.com/91037796/153524148-d48183ea-03f1-445b-80c7-7752fc7ecc44.png)
-
-<br /><br /><br /><br />
 
 
