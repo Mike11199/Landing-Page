@@ -2,7 +2,7 @@
 @media only screen and (min-width: 601px) {
 
 * {
-	/* border: 2px solid red; */
+	font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
@@ -11,18 +11,39 @@ body {
     }
 
 input{
-    width: 80%;
+    width: 200px;
     display: flex;
     flex-direction: column;
     flex-flow:wrap;
     
 }
 
+
 input:focus {
     outline: none;
     border-color: rgb(65, 110, 196);
     box-shadow: 0 0 10px #719ECE;
 }
+
+
+input2{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    flex-flow:wrap;
+    gap: 30px;
+}
+
+input2:focus {
+    outline: none;
+    border-color: rgb(65, 110, 196);
+    box-shadow: 0 0 10px #719ECE;
+}
+
+
+
+
+
 
 label {
     width: 40%;
@@ -61,20 +82,51 @@ label {
     display: flex;
     flex-direction: column;
     margin-left: 20%;
+    gap: 20px;
+}
+
+.form-grid_2{
+    padding-top: 70px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 20%;
     
 }
 
-.form_section
 
-    {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    
-    padding-bottom: 20px;
-    gap: 30px;
 
-    }
+.submit_1{
+    background-color: darkgreen; /* Green */
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    border: none;
+    width: 330px;
+    text-decoration: none;
+    height: 40px;
+}
+
+.submit_1:hover {
+    background-color: #3e8e41;
+    box-shadow: 0 0 10px #719ECE;
+}
+
+.submit_2{
+    background-color: darkgreen; /* Green */
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    border: none;
+    width: 330px;
+    text-decoration: none;
+    height: 40px;
+}
+
+
+.submit_2:hover {
+    background-color: #3e8e41;
+    box-shadow: 0 0 10px #719ECE;
+}
       
 .right_section {
         display: flex;
@@ -100,7 +152,7 @@ label {
     display: flex;
     font-size: 30px;
     font-weight: 500;
-    font-family:Arial, Helvetica, sans-serif
+    font-family:Arial, Helvetica, sans-serif;
 }
 
 .side_image_section{
@@ -457,7 +509,7 @@ background-color: #3e8e41;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    padding-left: 120px;
+    
 }
 
 
@@ -476,7 +528,7 @@ background-color: #3e8e41;
 @media only screen and (max-width: 600px) {
 
     * {
-        /* border: 2px solid red; */
+        font-family: Arial, Helvetica, sans-serif;
     }
     
     body {
@@ -828,11 +880,9 @@ background-color: #3e8e41;
 
 
 .form-grid
-
 {
     display: flex;
-    
-
+  
 }
     
 
