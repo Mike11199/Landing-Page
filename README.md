@@ -5,7 +5,7 @@ This is practice for using HTML and CSS formatting to design a website's landing
 
 <br />
 
-<h2>Concepts Learned from this project:</h2>
+<h2>Concepts learned from this project:</h2>
 
 -Div and flex container, flexbox placement, and page layout.   </br>
 -Static Header navbar with links containing CSS hover transition effects to change color. </br>
