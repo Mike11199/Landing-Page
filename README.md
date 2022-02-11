@@ -1,7 +1,7 @@
 # Landing-Page
 
 
-This is practice for using HTML and CSS formatting to design a website's landing page.  
+This is practice for using HTML and CSS to design a website's landing page, along with a sign up/registration form accessible by one of the header links.  
 
 <br />
 
