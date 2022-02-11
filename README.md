@@ -8,7 +8,7 @@ This is practice for using HTML and CSS formatting to design a website's landing
 <h2>Concepts learned from this project:</h2>
 
 -Div and flex container, flexbox placement, and page layout.   </br>
--Static Header navbar with links containing CSS hover transition effects to change color. </br>
+-Static header navbar with links containing CSS hover transition effects to change color. </br>
 -CSS Added for mobile phone viewing support of the website with @media only sections.  </br>
 -CSS for adding animations (added h2 to float in from margin). </br>
 -Adding forms with associated inputs and labels of the submit action, to post to "http://httpbin.or/post"; how to receive user input. </br>
