@@ -106,10 +106,22 @@ label {
     height: 40px;
 }
 
+
+
 .submit_1:hover {
     background-color: #3e8e41;
-    box-shadow: 0 0 10px #719ECE;
+    
 }
+
+.submit_1:active {
+    
+    box-shadow: inset 0 0 10px black;
+}
+
+
+
+
+
 
 .submit_2{
     background-color: darkgreen; /* Green */
@@ -125,8 +137,14 @@ label {
 
 .submit_2:hover {
     background-color: #3e8e41;
-    box-shadow: 0 0 10px #719ECE;
+    
 }
+
+.submit_2:active {
+    
+    box-shadow: inset 0 0 10px black;
+}
+
       
 .right_section {
         display: flex;
@@ -470,17 +488,26 @@ h4 {
     font-size: 16px;
     border-radius: 10px;
     
+    
   }
 
 
   /* Source:   https://www.w3schools.com/howto/howto_css_animate_buttons.asp*/
+
 .trip_availability:hover {
-    background-color: #3e8e41
+background-color: #3e8e41;
+
+
 }
 
 .trip_availability:active {
-background-color: #3e8e41;
+
+box-shadow: inset 0 0 10px black;
+
 }
+
+
+
 
 
 
@@ -813,13 +840,17 @@ background-color: #3e8e41;
     
     
       /* Source:   https://www.w3schools.com/howto/howto_css_animate_buttons.asp*/
-    .trip_availability:hover {
-        background-color: #3e8e41
-    }
-    
-    .trip_availability:active {
-    background-color: #3e8e41;
-    }
+      .trip_availability:hover {
+        background-color: #3e8e41;
+        
+        
+        }
+        
+        .trip_availability:active {
+        
+        box-shadow: inset 0 0 10px black;
+        
+        }
     
     
     
@@ -1009,10 +1040,17 @@ label {
     height: 40px;
 }
 
-.submit_1:hover {
+.submit_1:focus {
     background-color: #3e8e41;
-    box-shadow: 0 0 10px #719ECE;
+    
 }
+
+.submit_1:active {
+    
+    box-shadow: inset 0 0 10px black;
+}
+
+
 
 .submit_2{
     background-color: darkgreen; /* Green */
@@ -1026,10 +1064,16 @@ label {
 }
 
 
-.submit_2:hover {
+.submit_2:focus {
     background-color: #3e8e41;
-    box-shadow: 0 0 10px #719ECE;
+    
 }
+
+.submit_2:active {
+    
+    box-shadow: inset 0 0 10px black;
+}
+
 
           
 .right_section {
