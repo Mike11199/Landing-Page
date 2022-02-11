@@ -5,14 +5,14 @@ This is practice for using HTML and CSS formatting to design a website's landing
 
 <br />
 
-<h2>Concepts Learned from this project:</h2>
+<h2>Concepts learned from this project:</h2>
 
 -Div and flex container, flexbox placement, and page layout.   </br>
--Static Header navbar with links containing CSS hover transition effects to change color. </br>
--CSS Added for mobile phone viewing support of the website. </br>
--CSS for adding animations (added h2 float in from margin). </br>
--Adding forms with associated inputs and labels of the submit action, to post to "http://httpbin.or/post"; how to receive user input.
-
+-Static header navbar with links containing CSS hover transition effects to change color. </br>
+-CSS Added for mobile phone viewing support of the website with @media only sections.  </br>
+-CSS for adding animations (added h2 to float in from margin). </br>
+-Adding forms with associated inputs and labels of the submit action, to post to "http://httpbin.or/post"; how to receive user input. </br>
+-Other CSS such as button inputs that trigger a box shadow and border color change on focus; making inputs reqiuired for the form, etc.
 
 If button CSS (mouseover, click effects) do not work, go to Dev Tools (F12 in Chrome) -> Network -> Disable Cache, then delete your browser's cache manually.  Then reopen the live preview page off of GitHub Pages.
 
