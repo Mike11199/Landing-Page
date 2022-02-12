@@ -764,7 +764,7 @@ box-shadow: inset 0 0 10px black;
         /* border-bottom: 1px darkgrey;
         
         border-style: solid; */
-        position: fixed; /* Set the navbar to fixed position */
+        
         top: 0; 
         gap: 20px;
         
