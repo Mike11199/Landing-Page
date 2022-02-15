@@ -579,7 +579,7 @@ box-shadow: inset 0 0 10px black;
     .flex-container {
         display: flex;
         flex-direction: column;
-        height: 1200px;
+        height: auto;
         
     }
     
@@ -590,13 +590,14 @@ box-shadow: inset 0 0 10px black;
     }
         
     .top_section {
-        margin-top: 80px;
-        height: 800px;
+        margin-top: 0px;
+        height: auto;
         background-color: #1f2937;
-        position: static; /* Set the navbar to fixed position */
+        height: 650px;
         display: flex;
         flex-direction: column;
         align-items: center;
+        
         
         
         
@@ -666,6 +667,7 @@ box-shadow: inset 0 0 10px black;
         display: flex;
         flex-direction: column;
         text-align:right;
+        margin-top: 100px;
         height:400px;
         justify-content: center;
     
@@ -684,7 +686,7 @@ box-shadow: inset 0 0 10px black;
         font-family: Arial, Helvetica, sans-serif;
         padding: 30px;
         margin: 0px;
-        margin-top: 40px;
+        margin-top: 0px;
 
 
     }
@@ -776,7 +778,7 @@ box-shadow: inset 0 0 10px black;
     .Website_Description
     {
         margin-top: 102px;
-        height: 250px;
+        height: 270px;
         display: flex;
         flex-direction: column;
         
@@ -784,7 +786,6 @@ box-shadow: inset 0 0 10px black;
     
     .Website_Description_SubText_1
     {
-        margin-top: 170px;
         display: flex;
         flex-direction: column;
     }
@@ -893,7 +894,7 @@ box-shadow: inset 0 0 10px black;
 
     background-image: url("../images/Annapurna.jpg");
     
-    margin-top: 215px;
+    
     display: flex;
     flex-direction: column;
     background-position: center;
